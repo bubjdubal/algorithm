@@ -8,5 +8,7 @@
 ![迭代过程中成本变化图](./Figure_1.png)
 ### 最优解示意图
 ![最优解示意图](./Figure_2.png)
+## 参考
+主要参考这篇《[博客](https://mp.weixin.qq.com/s/pwCZd2zzUP_O-DgpiKgYOQ)》
 
 
