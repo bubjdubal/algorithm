@@ -91,7 +91,7 @@ if __name__ == '__main__':
             distance[i][j] = ((N[i].x - N[j].x) ** 2 + (N[i].y - N[j].y) ** 2) ** 0.05
             distance[j][i] = distance[i][j]
 
-    # 配置算法配置
+    # 配置算法参数
     Iter = 5000 # 迭代次数
     city_number = size # 城市数量
 
@@ -168,10 +168,6 @@ if __name__ == '__main__':
     plt.xlim(-1, maxX)  # 仅设置x轴坐标范围
     plt.ylim(-1, maxY)  # 仅设置y轴坐标范围
     plt.show()
-
-    # plt.ylim(-1,1)#仅设置y轴坐标范围
-
-
 
     print("tabu_search end!")
 
